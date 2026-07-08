@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+# FlyRank Capstone Rules
+
+## Stack
+- React 19
+- Vite
+- JavaScript (ES6+)
+- ESLint
+- CSS (`src/index.css` for global styles and `src/App.css` for component styles)
+
+## Commands
+- Use `npm run dev` to start the development server.
+- Use `npm run build` to create a production build.
+- Run `npm run lint` before committing changes.
+
+## Code Style
+- Use functional React components only.
+- Keep components small and reusable.
+- Place reusable components in `src/components/`.
+- Use meaningful variable and function names.
+- Keep commits in Conventional Commits format (e.g., `feat: add welcome page`).
+
+## Do Not
+- Commit `node_modules/`.
+- Add unnecessary dependencies without approval.
+- Modify generated files unless required.

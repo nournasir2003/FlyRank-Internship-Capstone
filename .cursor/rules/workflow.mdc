@@ -1,0 +1,12 @@
+---
+description: Git workflow, Conventional Commits, and GitHub submission requirements for the FlyRank Frontend AI Engineering capstone.
+alwaysApply: false
+---
+
+# Capstone Git Workflow
+
+- Use Conventional Commits (e.g., `feat:`, `fix:`, `docs:`, `chore:`).
+- Never commit `node_modules/`.
+- Ensure the README includes project setup instructions and `npm run dev`.
+- Keep the project rules (`CLAUDE.md` or `.cursor/rules`) up to date.
+- Before suggesting a commit message, ensure it follows the Conventional Commits specification.
