@@ -6,9 +6,13 @@
   
   * {
     box-sizing: border-box;
+    align-items: center;
   }
   
   body {
     margin: 0;
     font-family: system-ui, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
   }
