@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "./assets/vite.svg";
+import heroImg from "./assets/hero.png";
+import "./App.css";
+import SettingsForm from "./components/SettingsForm";
 
 function App() {
-  const [count, setCount] = useState(1)
+  const [count, setCount] = useState(1);
 
   return (
     <>
@@ -114,9 +115,10 @@ function App() {
       </section>
 
       <div className="ticks"></div>
+      <SettingsForm />
       <section id="spacer"></section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
