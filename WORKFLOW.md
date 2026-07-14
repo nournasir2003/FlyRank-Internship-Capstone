@@ -49,7 +49,7 @@ One issue I found was that Claude exported helper validation functions from the 
 
 I also corrected an incorrect import path after reorganizing the files, which prevented Vite from compiling successfully.
 
-Although the second prompt took longer to write, it reduced the overall debugging and review time.
+Although the second prompt took more time to prepare, the total development time was lower because less debugging and restructuring were required after generation.
 
 ## Lessons Learned
 
