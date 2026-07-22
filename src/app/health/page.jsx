@@ -3,7 +3,7 @@ export default async function Health() {
   let error = null;
 
   try {
-    const res = await fetch("https://api.adviceslip.com/advice", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
       cache: "no-store",
     });
 
@@ -16,7 +16,9 @@ export default async function Health() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-10">
       <h1 className="text-2xl font-bold mb-4">Health Check</h1>
+
       {error && <p className="text-red-600">ERROR: {error}</p>}
+
       {data && (
         <pre className="bg-gray-100 border border-gray-200 rounded-lg p-4 text-sm overflow-auto">
           {JSON.stringify(data, null, 2)}
