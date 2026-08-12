@@ -67,7 +67,7 @@ export default function ChatContainer() {
           onClick={jumpToLatest}
           className="self-center mb-2 text-xs px-3 py-1 rounded-full bg-gray-800 text-white"
         >
-          ↓ الانتقال لآخر رسالة
+          ↓ Jump to latest
         </button>
       )}
 
