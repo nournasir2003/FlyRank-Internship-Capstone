@@ -8,6 +8,7 @@ const links = [
   { href: "/settings", label: "Settings" },
   { href: "/health", label: "Health Check" },
   { href: "/playground", label: "Playground" },
+  { href: "/chat", label: "Chat" },
 ];
 
 export default function Nav() {
